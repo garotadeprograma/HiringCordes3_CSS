@@ -16,10 +16,6 @@ header {
     
 }
 
-main {
-    
-}
-
 ul {
     list-style: none;
     font-size: 30px;
@@ -48,3 +44,21 @@ a {
 .container .name h5 {
     font-size: 25px;
 }
+
+#about p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.form {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.form input {
+    width: 50%;
+}
+
+.form button {
+    width: 15%;
+} 
