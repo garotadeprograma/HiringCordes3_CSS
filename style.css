@@ -12,8 +12,16 @@ body {
 header {
     background: url(img/bg.png) no-repeat center center;
     background-size: cover;
-    text-align: center;
-    
+    text-align: center; 
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+}
+
+header ul li {
+    padding: 10px;
 }
 
 ul {
@@ -53,6 +61,7 @@ a {
 .form {
     width: 40%;
     margin: 0 auto;
+    padding: 10px 0;
 }
 
 .form input {
@@ -62,3 +71,19 @@ a {
 .form button {
     width: 15%;
 } 
+.projetos {    
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around
+}
+
+.projetos-flex {
+    border: solid #1D3354;
+    margin: 0 10px;
+    padding: 10px 0;
+    width: 30%;
+}
+
+.projetos-flex img {
+    width: 300px;
+}
