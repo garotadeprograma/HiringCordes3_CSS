@@ -66,11 +66,30 @@ a {
 
 .form input {
     width: 50%;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
 }
 
 .form button {
     width: 15%;
+    padding: 5px 10px;
+    background: linear-gradient(to right, #3b0632 50%, #7A306C 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    color: #009FFF;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 300ms ease-out;
 } 
+
+.form button:hover {    
+    background-position: left bottom;
+    color: #FFF;
+}
+
 .projetos {    
     padding: 10px 0;
     display: flex;
